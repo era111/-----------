@@ -8,7 +8,6 @@ console.log(menu);
 
 progr.addEventListener('click', (event) => {
     event.preventDefault()
-    console.log(event.target);
     if (event.target.classList.contains('spisok')){
         if (menu.classList.contains('show')){
             menu.classList.add('hide')
@@ -25,7 +24,6 @@ progr.addEventListener('click', (event) => {
 
 lec.addEventListener('click', (event) => {
     event.preventDefault()
-    // console.log(event.target);
     if (event.target.classList.contains('spisok')){
         if (menu2.classList.contains('show')){
             menu2.classList.add('hide')
